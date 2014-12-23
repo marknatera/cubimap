@@ -1,2 +1,2 @@
-cubimap
+CubiMap
 =======
