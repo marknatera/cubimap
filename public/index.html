@@ -7,44 +7,82 @@
 		<link rel="stylesheet" type="text/css" href="css/dale.css">
 		<link rel="stylesheet" type="text/css" href="css/hover.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
 	</head>
 
 	<body>
 
 		<header>
 			<nav>
+				<img class="logo-bq" src="images/bqblack.jpg" alt="">
 				<img class="logo" src="images/logo.png" alt="CubiMap">
 				<ul class="menu">
 					<li><a href="#">Home</a></li>
-					<li><a href="#products">Products</a></li>
 					<li><a href="#about">About</a></li>
+					<li><a href="#products">Products</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
 		</header>
 		
 		<section id="home">
+			<div class="overlay"></div>
 			<div class="absolute-center">
-				<img src="images/head-main2.png" alt=""><br>
-				<a href="#products" class="button glow">VIEW OUR PRODUCTS</a>
+				<img src="images/logo.png" alt=""><br>
+				<a href="#products" class="button outline-outward">VIEW OUR PRODUCTS</a>
 			</div>
+				<video autoplay loop id="bgvid">
+				<source src="videos/bkgvid.mp4" type="video/mp4">
+				</video>
 		</section>
 		
-		<section id="products">
-			<h1>Products</h1>
-		</section>	
-		
 		<section id="about">
-			<h1>About Us</h1>
+			<div class="wrap">
+				<h1>About Us</h1>
+				<p>CubiMap Distribution is the official distributor for bq 3D Printers in the USA. CubiMap Distribution can help your business enter the 3D printer category or expand your current 3D printing category by offering bq 3D printers. We also carry a wide range of filaments, accessories and solutions that will appeal to your customers. We will provide you with technical support and guidance in navigating this exciting new technology category.</p>
+				<div class="row">
+					<div class="col-md-6">
+						<img src="images/jesus.jpg" alt="Jesus Albo">
+						<h2>Co-Founder, CEO</h2>
+					</div>
+
+					<div class="col-md-6">
+						<img src="images/miguel.jpg" alt="Miguel Vidal">
+						<h2>Co-Founder, COO</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="products">
+			<div class="wrap">
+				<h1>Products</h1>
+				<img src="images/head-main2.png" alt="Witbox">
+			</div>
 		</section>
 
 		<section id="contact">
-			<h1>Contact Us</h1>
+			<div class="wrap2">
+				<h1>Contact Us</h1>
+				<h2>1.888.777.1188 | info@cubimapdistribution.com</h2>
+				<form enctype="text/plain" method="get" action="mailto:marknatera@gmail.com">
+					<input class="form-control" id="focusedInput" type="text" value="Full Name"><br>
+					<input class="form-control" id="focusedInput" type="text" value="Company Name"><br>
+					<input class="form-control" id="focusedInput" type="text" value="Email"><br>
+					<input class="form-control" id="focusedInput" type="text" value="Contact Number"><br>
+					<input class="form-control" id="focusedInput" type="text" value="City"><br>
+					<input class="form-control" id="focusedInput" type="text" value="State"><br>
+					<input type="submit" value="Send" class="btn btn-primary btn-lg btn-block">
+				</form>
+			</div>
 		</section>
 
 		<footer>
-			<p>Copyright 2009 Your name</p>
+			<div class="wrap">
+				<p><strong>© 2015 CubiMap Distribution, LLC.</strong></p>
+				<p>The design of a logo and CubiMap are registered trademarks of CubiMap Distribution, LLC.</p>
+				<p>Design by Mark Natera | <a href="http://markn.co">MARKN.CO</a></p>
+			</div>
 		</footer>
 
 	</body>
